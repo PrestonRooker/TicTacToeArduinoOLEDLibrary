@@ -31,8 +31,8 @@ class TicTacToeDisplay
         Adafruit_SSD1306 m_display;
         static const uint16_t white = SSD1306_WHITE;
         static const uint16_t black = SSD1306_BLACK;
-        static const byte squarePosX[9] = {68, 88, 108,  68, 88, 108,  68, 88, 108};
-        static const byte squarePosY[9] = {4,  4,  4,    24, 24, 24,   44, 44, 44 };
+        static const byte squarePosX[9];
+        static const byte squarePosY[9]; 
 
 };
 

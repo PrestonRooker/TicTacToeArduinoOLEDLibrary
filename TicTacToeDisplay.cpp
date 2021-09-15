@@ -9,6 +9,9 @@
 #include <Adafruit_SSD1306.h>
 #include <Wire.h>
 
+    const byte TicTacToeDisplay::squarePosX[9] = {68, 88, 108,  68, 88, 108,  68, 88, 108};
+    const byte TicTacToeDisplay::squarePosY[9] = {4,  4,  4,    24, 24, 24,   44, 44, 44 };	
+
     TicTacToeDisplay::TicTacToeDisplay(uint8_t w, uint8_t h, TwoWire *twi, int8_t rst_pin)
     {
         m_display = Adafruit_SSD1306(w,h,twi,rst_pin);        
