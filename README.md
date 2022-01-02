@@ -4,6 +4,10 @@ This is a library for use with Arduino IDE that provides methods with which to d
 
 This project was created for UCLA IEEE Open Project Space in 2021.
 
+## Prerequisites
+
+In order for this library to work you must also have installed the adafruit GFX library and adafruit SSD1306 library for arduino. These can be found in the arduino library manager, or alternatively you can download them from https://github.com/adafruit/Adafruit-GFX-Library and https://github.com/adafruit/Adafruit_SSD1306 and manually install them.
+
 ## Usage
 Start by creating a TicTacToeDisplay object with either
 `TicTacToeDisplay display;`
