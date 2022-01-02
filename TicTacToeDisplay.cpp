@@ -260,7 +260,7 @@
         bool toggle = false;
         for(byte i = 0; i < 8; i++){
             toggle = !toggle;
-            display.invertDisplay(toggle);
+            m_display.invertDisplay(toggle);
             delay(200);
         }
     }
