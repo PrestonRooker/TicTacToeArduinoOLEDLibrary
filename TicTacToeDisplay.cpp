@@ -84,7 +84,6 @@
         int x1;
         int y1;
         uint16_t color = SSD1306_WHITE;
-        //void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color)
         if( (firstSquareNum == 0 && secondSquareNum == 8) || (firstSquareNum == 8 && secondSquareNum == 0)){
             x0 = 68;
             y0 = 4;
@@ -145,7 +144,7 @@
     //can draw 8  characters vertically
     void TicTacToeDisplay::drawSmallText(String text)
     {
-        m_display.fillRect(0,0,64,32,black);
+        m_display.fillRect(0,0,64,64,black);
         m_display.setTextSize(1);
         m_display.setCursor(0,0);
         if(text.length() > 88){
@@ -169,7 +168,7 @@
     //can draw 4 characters vertically
     void TicTacToeDisplay::drawLargeText(String text)
     {
-        m_display.fillRect(0,0,64,32,black);
+        m_display.fillRect(0,0,64,64,black);
         m_display.setTextSize(2);
         m_display.setCursor(0,0);
         if(text.length() > 20){
