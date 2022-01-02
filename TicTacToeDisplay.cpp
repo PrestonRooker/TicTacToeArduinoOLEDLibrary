@@ -254,6 +254,17 @@
         m_display.display();
     }
 
+    //Makes the screen flash by rapidly inverting colors. Good effect to add to a Game Over.
+    void TicTacToeDisplay::flashScreen()
+    {
+        bool toggle = false;
+        for(byte i = 0; i < 8; i++){
+            toggle = !toggle;
+            display.invertDisplay(toggle);
+            delay(200);
+        }
+    }
+
     //Provided in case you really wanted to manually draw something, but if you want to do that
     //  I reccomend that you just use Adafruit_SSD1306 and Adafruit_GFX by themselves
     void TicTacToeDisplay::drawPixel(byte x, byte y)

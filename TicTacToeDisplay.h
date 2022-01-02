@@ -25,6 +25,7 @@ class TicTacToeDisplay
         void deselectSquare(int squareNum);
         void clearSquare(int squareNum);
         void clearScreen();
+        void flashScreen();
         void drawPixel(byte x, byte y);
         void clearPixel(byte x, byte y);
     private:
