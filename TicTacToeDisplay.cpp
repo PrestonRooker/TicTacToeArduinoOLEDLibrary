@@ -144,7 +144,7 @@
     //can draw 8  characters vertically
     void TicTacToeDisplay::drawSmallText(String text)
     {
-        m_display.fillRect(0,0,64,64,black);
+        m_display.fillRect(0,0,66,64,black);
         m_display.setTextSize(1);
         m_display.setCursor(0,0);
         if(text.length() > 88){
@@ -168,7 +168,7 @@
     //can draw 4 characters vertically
     void TicTacToeDisplay::drawLargeText(String text)
     {
-        m_display.fillRect(0,0,64,64,black);
+        m_display.fillRect(0,0,66,64,black);
         m_display.setTextSize(2);
         m_display.setCursor(0,0);
         if(text.length() > 20){
