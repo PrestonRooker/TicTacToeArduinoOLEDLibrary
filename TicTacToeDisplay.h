@@ -15,7 +15,7 @@ class TicTacToeDisplay
     public:
         TicTacToeDisplay(uint8_t w = 128, uint8_t h = 64, TwoWire *twi = &Wire, int8_t rst_pin = -1 );
         void begin(uint8_t switchvcc = SSD1306_SWITCHCAPVCC, uint8_t i2caddr = 0x3C);
-        void displayBoard();
+        void drawBoard();
         void drawX(int squareNum);
         void drawO(int squareNum);
         void drawVictoryLine(int firstSquareNum, int secondSquareNum);

@@ -25,10 +25,8 @@
         m_display.setTextSize(2);
     }
 
-    void TicTacToeDisplay::displayBoard()
+    void TicTacToeDisplay::drawBoard()
     {
-        //display.clearDisplay();
-
         m_display.fillRect(64,0,64,64,black);
 
         //vertical lines
