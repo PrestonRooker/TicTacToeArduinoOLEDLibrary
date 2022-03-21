@@ -1,8 +1,8 @@
 # TicTacToeArduinoOLEDLibrary
 
-This is a library for use with Arduino IDE that provides methods with which to draw the art for a simple TicTacToe game using an SSD1306 128x64 OLED Display such as this onehttps://www.amazon.com/IZOKEE-Display-SSD1306-Raspberry-White-IIC/dp/B076PDVFQD. 
+This is a library for use with Arduino IDE that provides methods with which to draw the art for a simple TicTacToe game using an SSD1306 128x64 OLED Display such as this one: https://www.amazon.com/IZOKEE-Display-SSD1306-Raspberry-White-IIC/dp/B076PDVFQD. 
 
-This project was created for UCLA IEEE Open Project Space in 2021.
+This project was created for UCLA IEEE Open Project Space in the school year 2021-2022.
 
 ## Prerequisites
 
